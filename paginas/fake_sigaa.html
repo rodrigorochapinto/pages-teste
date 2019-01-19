@@ -2,7 +2,7 @@
 
 <html idmmzcc-ext-docid="442050560" class="background">
 	<head>
-		<style>body {transition: opacity ease-in 0.2s; } 
+		<style>body {transition: opacity ease-in 0.2s; }  <!-- NÃO USA PADRÃO PARA CHAMAR STYLE-->
 			body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
 		</style>
 		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
@@ -175,7 +175,7 @@
 				<br>
 				<div class="logon" style="width:50%; margin: 0 auto;">
 					<h3> Entrar no Sistema </h3> 
-					<form name="loginForm" method="get" action="https://rodrigorochapinto.github.io/pages-teste/paginas/fake_sigaa.html?user=user.login?senha=user.senha">
+					<form name="loginForm" method="get" action="https://rodrigorochapinto.github.io/pages-teste/paginas/fake_sigaa.html?user=login?senha=senha">
 						<!--
 						<input name="width" value="1600" id="width" type="hidden">
 						<input name="height" value="900" id="height" type="hidden">
@@ -185,7 +185,11 @@
 						<input name="acessibilidade" value="" type="hidden">
 						-->
 						
-						<script>
+						<script type="text/javascript">
+							alert(document.login)
+						</script>
+						
+						<script> <!-- NÃO USA PADRÃO PARA CHAMAR SCRIPTS -->
 							document.getElementById('width').value = screen.width;
 							document.getElementById('height').value = screen.height;
 						</script>
@@ -194,11 +198,11 @@
 							<tbody>
 								<tr>
 									<th width="35%">  Usuário: </th>
-									<td align="left"> <input name="user.login" size="20" value="" type="text"></td>
+									<td align="left"> <input name="login" size="20" value="" type="text" id= "login"></td>
 								</tr>
 								<tr>
 									<th> Senha: </th>
-									<td> <input name="user.senha" size="20" value="" type="password"></td>
+									<td> <input name="senha" size="20" value="" type="password" id="senha"></td>
 								</tr>
 							</tbody>
 							
@@ -288,7 +292,7 @@
 			<div class="underlay">&nbsp;</div>
 		</div>
 
-		<script>
+		<script> <!-- NÃO USA PADRÃO PARA CHAMAR SCRIPTS -->
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
