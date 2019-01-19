@@ -62,9 +62,7 @@
 				<div id="info-sistema">
 					<h1><span>UFRN - SIGAA -</span></h1>
 					<h3>Sistema Integrado de Gestão de Atividades Acadêmicas</h3>
-					<div class="dir">
-				
-					</div>
+					<div class="dir"></div> <!-- CODIGO SEM UTILIDADE -->
 				</div>
 	 
 				<div id="painel-usuario" style="height: 20px;">
@@ -223,7 +221,7 @@
 					<script type="text/javascript" language="JavaScript">
 					  <!--
 					  var focusControl = document.forms["loginForm"].elements["user.login"];
-
+																							//ERRO NO COMENTÁRIO
 					  if (focusControl.type != "hidden" && !focusControl.disabled) {
 						 focusControl.focus();
 					  }
@@ -264,81 +262,69 @@
 						</tr>
 					</tbody>
 				</table>
-<br><br>
+				<br><br>
+				<div class="clear"> </div> <!-- CODIGO SEM UTILIDADE -->
+			</div> 
+			<br>
 
+			<div id="rodape">
+				<p>	SIGAA | Superintendência de Informática - (84) 3215-3148 | Copyright © 2006-2019 - UFRN - sigaa01-producao.info.ufrn.br.sigaa01-producao
+					 - <a onclick="javascript:versao();">v3.41.14_1</a>  <!-- PROVA QUE O SISTEMA NÃO FAZ REUSO DE CÓDIGO -->
+				</p>
+			</div>
+		</div>  
 
-
-	
-	
-		
-
-<div class="clear"> </div>
-
-</div> 
-	<br>
-
-	
-
-	<div id="rodape">
-		<p>	SIGAA | Superintendência de Informática - (84) 3215-3148 | Copyright © 2006-2019 - UFRN - sigaa01-producao.info.ufrn.br.sigaa01-producao
-		
-		 
-			 - <a onclick="javascript:versao();">v3.41.14_1</a>
+		<div style="z-index: 6; left: 449px; top: 387px;" id="painel-mensagem-envio_c" class="panel-container dialog shadow">
+			<div style="visibility: inherit; width: 700px;" class=" module overlay panel" id="painel-mensagem-envio">
+			<div id="painel-mensagem-envio_h" style="cursor: move;" class="hd">Mensagem</div> 
+				<div class="bd">Aguarde...
+					<form name="frm_painel-mensagem-envio" action="">
+					</form>
+				</div>
 				
-		</p>
-	</div>
+				<div class="ft">
+					<span class="button-group">
+						<button class="default" type="button">Enviar</button>
+						<button type="button">Cancelar</button>
+					</span>
+				</div> 
+				
+				<div class=" close secure">&nbsp;</div>
+			</div>
+			<div class="underlay">&nbsp;</div>
+		</div>
 
-
-</div>  
-
-<div style="z-index: 6; left: 449px; top: 387px;" id="painel-mensagem-envio_c" class="panel-container dialog shadow"><div style="visibility: inherit; width: 700px;" class=" module overlay panel" id="painel-mensagem-envio"><div id="painel-mensagem-envio_h" style="cursor: move;" class="hd">Mensagem</div> <div class="bd">Aguarde...<form name="frm_painel-mensagem-envio" action=""></form></div><div class="ft"><span class="button-group"><button class="default" type="button">Enviar</button><button type="button">Cancelar</button></span></div><div class=" close secure">&nbsp;</div></div><div class="underlay">&nbsp;</div></div>
-
-
-
-
-
-
-
-
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
-	  ga('create', 'UA-4564254-24', 'auto');
-	  ga('send', 'pageview');
-	
-	</script>	
-
-
-
-
-
-
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			ga('create', 'UA-4564254-24', 'auto');
+			ga('send', 'pageview');
+		</script>	
  
-	<script type="text/javascript" charset="UTF-8">
-		function versao(){
-			var msg='';
-			msg+='SIGAA 3.41.14_1,  publicado em: 18/01/2019 17:40\n\n';
-			msg+='Depend\u00eancias:\n';
-			msg+='Arquitetura 3.8.9\n';
-			msg+='Entidades Comuns 1.8.6\n';
-			msg+='Servicos Integrados 1.8.5\n';
-			msg+='SharedResources 1.10.4\n';
-			msg+='Servicos Remoto Biblioteca 1.0.0\n';
-			msg+='SIGAA Mobile Objects 1.0.0\n\n';
-			msg+='Copyright SINFO/UFRN';
-			alert(msg);
-		}	
-	</script>
+		<script type="text/javascript" charset="UTF-8">
+			function versao(){
+				var msg='';
+				msg+='SIGAA 3.41.14_1,  publicado em: 18/01/2019 17:40\n\n';
+				msg+='Depend\u00eancias:\n';
+				msg+='Arquitetura 3.8.9\n';
+				msg+='Entidades Comuns 1.8.6\n';
+				msg+='Servicos Integrados 1.8.5\n';
+				msg+='SharedResources 1.10.4\n';
+				msg+='Servicos Remoto Biblioteca 1.0.0\n';
+				msg+='SIGAA Mobile Objects 1.0.0\n\n';
+				msg+='Copyright SINFO/UFRN';
+				alert(msg);
+			}	
+		</script>
 
+		<script language="javascript"> <!-- NÃO USA PADRÃO PARA CHAMAR SCRIPTS -->
+			Relogio.init(25);
+		</script>
 
-<script language="javascript">
-Relogio.init(25);
-</script>
-
-	
-<iframe style="visibility: visible; width: 10em; height: 10em; position: absolute; top: -116px; left: -116px; border-style: none; border-width: 0px; opacity: 0;" id="_yuiResizeMonitor"></iframe></body></html>
-
+		<iframe style="visibility: visible; width: 10em; height: 10em; position: absolute; top: -116px; left: -116px; border-style: none; border-width: 0px; opacity: 0;" id="_yuiResizeMonitor"></iframe>
+	</body>
 </html>
+
