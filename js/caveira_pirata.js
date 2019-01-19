@@ -1,11 +1,9 @@
-/////////////////////////////////////////////////////////
-// Javascript made by http://peters1.dk/tools/caveira_pirata.php //
-/////////////////////////////////////////////////////////
+// Rodrigo Rocha 19/01/2019
 
-// LEMBRE-SE: De mudar o caminho, onde caveira_pirata.png é salvo
+// Caminho da Imagem
 caveira_pirata_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/caveira_pirata.png";
 
-// EXTRA: Voce pode facilmente ajustar o número de flocos de neve que voce deseja em cada página...
+// Números de elementos caindo na tela
 caveira_pirata_no = 25;
 
 if (typeof(window.pageYOffset) == "number")
