@@ -3,7 +3,7 @@
 /////////////////////////////////////////////////////////
 
 // LEMBRE-SE: De mudar o caminho, onde snow.png é salvo
-snow_img = "https://rodrigorochapinto.github.io/pages-teste/coracao_triplo.png";
+snow_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/coracao_triplo.png";
 
 // EXTRA: Voce pode facilmente ajustar o número de flocos de neve que voce deseja em cada página...
 snow_no = 25;
