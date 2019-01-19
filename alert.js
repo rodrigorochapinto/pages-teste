@@ -1,1 +1,5 @@
-alert('teste');
+function chama(){
+	alert('teste');
+}
+
+chama();
