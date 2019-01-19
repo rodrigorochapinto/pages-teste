@@ -3,7 +3,7 @@
 /////////////////////////////////////////////////////////
 
 // LEMBRE-SE: De mudar o caminho, onde snow.png é salvo
-snow_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/tux_pirata.png";
+snow_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/caveira_pirata.png";
 
 // EXTRA: Voce pode facilmente ajustar o número de flocos de neve que voce deseja em cada página...
 snow_no = 25;
