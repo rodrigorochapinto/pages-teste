@@ -1,5 +1,7 @@
 // Rodrigo Rocha 19/01/2019
 
+// TUX PIRATA
+
 // Caminho da Imagem
 tux_pirata_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/tux_pirata.png";
 
