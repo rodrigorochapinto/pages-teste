@@ -59,59 +59,32 @@
 
 	<body>
 		<div style="z-index: 5;" class="mask" id="painel-mensagem-envio_mask">&nbsp;</div>
-
-
-
-
-
-
-
-	<div id="container">
-	<div id="cabecalho">
-		<div id="info-sistema">
-			<h1><span>UFRN - SIGAA -</span></h1>
-			<h3>Sistema Integrado de Gestão de Atividades Acadêmicas</h3>
-			<div class="dir">
+		<div id="container">
+			<div id="cabecalho">
+				<div id="info-sistema">
+					<h1><span>UFRN - SIGAA -</span></h1>
+					<h3>Sistema Integrado de Gestão de Atividades Acadêmicas</h3>
+					<div class="dir">
 				
-			</div>
-		</div>
+					</div>
+				</div>
 	 
-
-	<div id="painel-usuario" style="height: 20px;">
-	
-	<div id="menu-principal"></div>
-	</div>
-	</div>
-	
-
-	<div id="conteudo">
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-<script type="text/javascript">
-//Função adicionada no cabeçalho para evitar a reescrita em cada JSP.
-function contarCaracteres(field, idMostraQuantidadeUsuario, maxlimit) {
-	
-	if (field.value.length > maxlimit){
-		field.value = field.value.substring(0, maxlimit);
-	}else{ 
-		document.getElementById(idMostraQuantidadeUsuario).innerHTML = maxlimit - field.value.length ;
-	} 
-}
-</script>
-<link rel="stylesheet" type="text/css" media="all" href="/sigaa/cssBundles/gzip_1114591188/public/css/logon.css">
+				<div id="painel-usuario" style="height: 20px;">
+					<div id="menu-principal"></div>
+				</div>
+			</div>
+			<div id="conteudo">
+				<script type="text/javascript">
+					//Função adicionada no cabeçalho para evitar a reescrita em cada JSP.
+					function contarCaracteres(field, idMostraQuantidadeUsuario, maxlimit) {
+						if (field.value.length > maxlimit){
+							field.value = field.value.substring(0, maxlimit);
+						}else{ 
+							document.getElementById(idMostraQuantidadeUsuario).innerHTML = maxlimit - field.value.length ;
+						} 
+					}
+				</script>
+				<link rel="stylesheet" type="text/css" media="all" href="https://sigaa.ufrn.br//sigaa/cssBundles/gzip_1114591188/public/css/logon.css">
 
 
 
