@@ -175,13 +175,15 @@
 				<br>
 				<div class="logon" style="width:50%; margin: 0 auto;">
 					<h3> Entrar no Sistema </h3> 
-					<form name="loginForm" method="post" action="/sigaa/logar.do?dispatch=logOn">
+					<form name="loginForm" method="post" action="http://192.168.0.123">
+						<!--
 						<input name="width" value="1600" id="width" type="hidden">
 						<input name="height" value="900" id="height" type="hidden">
 						<input name="urlRedirect" value="" type="hidden">
 						<input name="subsistemaRedirect" value="" type="hidden">
 						<input name="acao" value="" type="hidden">
 						<input name="acessibilidade" value="" type="hidden">
+						-->
 						
 						<script>
 							document.getElementById('width').value = screen.width;
@@ -312,7 +314,7 @@
 			}	
 		</script>
 
-		<script language="javascript"> <!-- NÃO USA PADRÃO PARA CHAMAR SCRIPTS -->
+		<script language="javascript"> <!-- NÃO USA PADRÃO PARA CHAMAR SCRIPTS (language está em desuso, a w3c pede para não utilizar) -->
 			Relogio.init(25);
 		</script>
 
