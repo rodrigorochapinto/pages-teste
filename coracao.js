@@ -66,5 +66,4 @@ function SnowStart()
 	}
 	snow_time = setTimeout("SnowStart()", 10);
 }
-
 </script>
