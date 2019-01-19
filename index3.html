@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>
+Teste
+</title>
+</head>
+<body bgcolor="black">
+<center><font size="7px" color="Green">
+SCRIPT REVISADO E RECRIADO POR<br> Leonardo Berbert
+<script language="JavaScript">    
+//COLOCADO SOBRE AS TAG's BODY \\   
+<!--
+      
+      var FLOCOS = 50; 
+      var VELOCIDADE = 30; 
+      var FIGURA = "local aonde a figura NEVE.gif está localizada";
+      var PROGRAMA = navigator.appName;
+      var COORDENADA = new Array();
+      var POSICAO_X = new Array();
+      var POSICAO_Y = new Array();
+      var AMPLITUDE = new Array();
+      var AVANCA_X = new Array();
+      var AVANCA_Y = new Array();
+      var RX, RY, I, LARGURA, COMPRIMENTO;
+      if (PROGRAMA == 'Netscape') {
+        LARGURA = self.innerWidth;
+        COMPRIMENTO = self.innerHeight; } 
+      else {
+        LARGURA = document.body.clientWidth;
+        COMPRIMENTO = document.body.clientHeight;
+      }
+      for (I=0; I<FLOCOS; I++) {  
+        COORDENADA[I] = 0;                        
+        POSICAO_X[I] = Math.random() * (LARGURA - 50);  
+        POSICAO_Y[I] = Math.random() * COMPRIMENTO;
+        AMPLITUDE[I] = Math.random() * 20;   
+        AVANCA_X[I] = 0.02 + Math.random() / 10; 
+        AVANCA_Y[I] = 0.7 + Math.random();     
+        if (PROGRAMA == 'Netscape') {                    
+          document.write('<LAYER NAME=\"dot' + I + '\" LEFT=\"15\" ');
+          document.write('TOP=\"15\" VISIBILITY=\"SHOW\"><IMG SRC=\"');
+          document.write(FIGURA + '\" BORDER=\"0\"></LAYER>'); }
+        else {
+          document.write('<DIV ID=\"dot' + I + '\" STYLE=\"POSITION: ');
+          document.write('ABSOLUTE; Z-INDEX: ' + I + '; VISIBILITY: ');
+          document.write('VISIBLE; TOP: 15px; LEFT: 15px;\"><IMG SRC=\"');
+          document.write(FIGURA + '\" BORDER=\"0\"></DIV>');  
+        } 
+      }
+
+      function MoveFlocos() {
+        for (I=0; I<FLOCOS; I++) {  
+          POSICAO_Y[I] += AVANCA_Y[I];
+          if (POSICAO_Y[I] > COMPRIMENTO - 50) {
+            POSICAO_X[I] = Math.random() * (LARGURA - AMPLITUDE[I] - 30);
+            POSICAO_Y[I] = 0;
+            AVANCA_X[I] = 0.02 + Math.random() / 10;
+            AVANCA_Y[I] = 0.7 + Math.random();
+          }
+          COORDENADA[I] += AVANCA_X[I];
+          RX = POSICAO_X[I] + AMPLITUDE[I] * Math.sin(COORDENADA[I]);
+          RY = POSICAO_Y[I];
+          if (PROGRAMA == 'Netscape') {
+            document.layers["dot" + I].top = RY;
+            document.layers["dot" + I].left = RX; }
+          else {
+            document.all["dot" + I].style.pixelTop = RY;
+            document.all["dot" + I].style.pixelLeft = RX;
+          }
+        }
+        setTimeout('MoveFlocos()', VELOCIDADE);
+      }
+      MoveFlocos();
+    //-->
+</script>     
+</body>
+</html>
