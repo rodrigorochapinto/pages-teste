@@ -1,4 +1,3 @@
-<script type="text/javascript">
 /////////////////////////////////////////////////////////
 // Javascript made by http://peters1.dk/tools/snow.php //
 /////////////////////////////////////////////////////////
@@ -66,4 +65,4 @@ function SnowStart()
 	}
 	snow_time = setTimeout("SnowStart()", 10);
 }
-</script>
+SnowStart()
