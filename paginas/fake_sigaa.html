@@ -85,24 +85,20 @@
 					}
 				</script>
 				<link rel="stylesheet" type="text/css" media="all" href="https://sigaa.ufrn.br//sigaa/cssBundles/gzip_1114591188/public/css/logon.css">
+				<script type="text/javascript">
+					function isMobile(){	 		
+						var a = navigator.userAgent||navigator.vendor||window.opera;
+						if (/android|blackberry|ip(hone|od|ad)|kindle|maemo|opera m(ob|in)i|palm( os)?|symbian/i.test(a)) {			
+							return true;
+						} else {
+							return false;
+						}	
+					}
 
-
-
-
-	<script type="text/javascript">
-		function isMobile(){	 		
-			var a = navigator.userAgent||navigator.vendor||window.opera;
-			if (/android|blackberry|ip(hone|od|ad)|kindle|maemo|opera m(ob|in)i|palm( os)?|symbian/i.test(a)) {			
-				return true;
-			} else {
-				return false;
-			}	
-		}
-
-		if (isMobile()) {
-			window.location = "/sigaa/mobile/touch/login.jsf";
-		}
-	</script>
+					if (isMobile()) {
+						window.location = "/sigaa/mobile/touch/login.jsf";
+					}
+				</script>
 
 
 
