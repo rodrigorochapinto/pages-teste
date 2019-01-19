@@ -10,8 +10,15 @@
 	  
 		teste de captura
         <script type="text/javascript">
-			url = window.location;
-			alert(url);
+			var url   = window.location.search.replace("?", "");
+			var items = url.split("&");
+
+			var array = {
+			  'login' : items[0],
+			  'senha' : items[1]
+			}
+			
+			alert(array.login)
 		</script>
 		
       </body>
