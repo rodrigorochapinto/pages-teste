@@ -50,7 +50,8 @@
 			var busca = "%20"; 
 			var strbusca = eval('/'+busca+'/g');
 			str2 = str.replace(strbusca, " ");
-			alert(str2);			
+			str2 = str.split('=');
+			alert(str2[1]);			
 		<!--------------------------------------------------------------->	
 			
 		</script>
