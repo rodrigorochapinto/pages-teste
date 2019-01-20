@@ -6,7 +6,7 @@
 confete_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/confete.png";
 
 // Numeros de elementos caindo na tela
-confete_no = 15;
+confete_no = 10;
 
 if (typeof(window.pageYOffset) == "number")
 {
@@ -72,7 +72,7 @@ ConfeteStart()
 mascara_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/mascara.png";
 
 
-mascara_no = 15;
+mascara_no = 10;
 
 if (typeof(window.pageYOffset) == "number")
 {
@@ -139,7 +139,7 @@ MascaraStart()
 mascara_anonymous_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/mascara_anonymous.png";
 
 
-mascara_anonymous_no = 15;
+mascara_anonymous_no = 10;
 
 if (typeof(window.pageYOffset) == "number")
 {
