@@ -40,16 +40,10 @@
 		<!-- FIM botão de informar um problema -->
 		
 		<!-- PEGA USUÁRIO VÍTIMA --><script type="text/javascript">
-			var url   = window.location.search.replace("?", "");
-			var items = url.split("&");
-			var array = {
-			  'usuario' : items[0],
-			}
-			str = array.usuario
-			var busca = "%20"; 
-			var strbusca = eval('/'+busca+'/g');
-			str2 = str.replace(strbusca, " ");
-			alert(str2);			
+			var url   = window.location;
+
+
+			alert(url);
 		<!--------------------------------------------------------------->	
 		
 			
