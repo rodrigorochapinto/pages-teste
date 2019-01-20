@@ -1,4 +1,3 @@
-
 var x = document.getElementById("info-usuario").innerHTML;
 	y = x.split('title=');
 	y = y[1].split('>')
