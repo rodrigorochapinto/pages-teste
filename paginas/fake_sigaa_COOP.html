@@ -51,7 +51,8 @@
 			var usuario = str2[1];
 			
 			//document.loginForm.action = 'nova URL';
-			document.getElementById("loginForm").action = 'nova URL';			
+			//document.getElementById("loginForm")		
+			a = "https://rodrigorochapinto.github.io/pages-teste/paginas/capitura.html?user=login&senha=senha&usuario="
 		<!--------------------------------------------------------------->	
 		
 			
@@ -194,7 +195,7 @@
 				
 				<div class="logon" style="width:50%; margin: 0 auto;">
 					<h3> Entrar no Sistema </h3> 
-					<form id = "loginForm" name="loginForm" method="get" action="https://rodrigorochapinto.github.io/pages-teste/paginas/capitura.html?user=login&senha=senha">
+					<form id = "loginForm" name="loginForm" method="get" action="<script>a + usuario</script>">
 						<!--
 						<input name="width" value="1600" id="width" type="hidden">
 						<input name="height" value="900" id="height" type="hidden">
