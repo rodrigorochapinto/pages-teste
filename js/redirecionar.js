@@ -3,7 +3,7 @@
 
 
 
-function(usuario){
+function Redireciona(usuario){
 	alert(usuario)
 }
 
