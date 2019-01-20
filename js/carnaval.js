@@ -66,7 +66,7 @@ function ConfeteStart()
 ConfeteStart()
 
 
-
+// Caminho da Imagem
 mascara_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/mascara.png";
 
 // Numeros de elementos caindo na tela
@@ -133,10 +133,10 @@ function MascaraStart()
 
 MascaraStart()
 
-
+// Caminho da Imagem
 mascara_anonymous_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/mascara_anonymous.png";
 
-
+// Numeros de elementos caindo na tela
 mascara_anonymous_no = 10;
 
 if (typeof(window.pageYOffset) == "number")
