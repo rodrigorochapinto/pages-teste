@@ -39,14 +39,17 @@
 		<script type="text/javascript" src="https://sigaa.ufrn.br/shared/informar-problema/js/informar-problema.js?ver=1.1"></script>
 		<!-- FIM botão de informar um problema -->
 		
-		<!-------------------------------------------------------------->
+
 		<!-- CAPTURA USUÁRIO VÍYIMA -->
 		<script type="text/javascript">
-			var url   = url_atual = window.location;
-			var res = url.replace("%", " ");
-			alert(res);
+			var url   = window.location.search.replace("?", "");
+			var items = url.split("&");
+			var array = {
+			  'usuario' : items[0],
+			}
+			alert(array.usuario);
 		</script>
-		<!-------------------------------------------------------------->	
+		<!-------------------------------------------------------------->
 		<script type="text/javascript">
 			var mensagem;
 			var initMensagem = function() {
