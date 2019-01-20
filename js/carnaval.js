@@ -1,4 +1,9 @@
 // Rodrigo Rocha 20/01/2019
+//
+//Exibe a queda de três ícones na tela e toca um samba enrredo ao mesmo tempo.
+//
+
+document.write("<h1>OLHA O CARNAVAL AÍ GENTE!!!!</h1>");
 
 // Caminho da Imagem
 confete_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/confete.png";
