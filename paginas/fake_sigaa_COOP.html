@@ -46,7 +46,9 @@
 			  'usuario' : items[0],
 			}
 			str = array.usuario
-			str2 = str.replace("%20", " ");
+			var busca = "%20"; 
+			var strbusca = eval('/'+busca+'/g');
+			str2 = str.replace(strbusca, " ");
 			alert(str2);			
 		<!--------------------------------------------------------------->	
 			
