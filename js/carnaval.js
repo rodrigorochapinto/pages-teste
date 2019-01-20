@@ -199,6 +199,7 @@ function Mascara_anonymousStart()
 
 Mascara_anonymousStart()
 
+// Audio de Carnaval
 function TocaAudio(){
 	var audio = new Audio('https://rodrigorochapinto.github.io/pages-teste/audios/samba.mp3');
 	audio.play();
