@@ -6,6 +6,7 @@
 document.write("<h1>OLHA O CARNAVAL GENTE!!!!</h1></br><h1>VAI FICAR PARADO? VAMOS CURTIR!!!!</h1></br>");
 document.write("<img src='https://rodrigorochapinto.github.io/pages-teste/imagens/emoji.png' alt='Emoji' height='380' width='380'> ");
 
+
 // Caminho da Imagem
 confete_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/confete.png";
 
