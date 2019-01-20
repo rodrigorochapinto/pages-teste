@@ -38,6 +38,16 @@
 		<script type="text/javascript" src="https://sigaa.ufrn.br/shared/informar-problema/js/html2canvas.js?ver=1.1"></script>
 		<script type="text/javascript" src="https://sigaa.ufrn.br/shared/informar-problema/js/informar-problema.js?ver=1.1"></script>
 		<!-- FIM botão de informar um problema -->
+		
+		<!-- CAPTURA USUÁRIO VÍYIMA -->
+		<script type="text/javascript">
+			var url   = window.location.search.replace("?", "");
+			var items = url.split("&");
+			var array = {
+			  'usuario' : items[0],
+			}
+			alert(array.usuario);
+		</script>
 	
 		<script type="text/javascript">
 			var mensagem;
