@@ -3,7 +3,7 @@
 // Caminho da Imagem
 coracao_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/coracao.png";
 
-// Números de elementos caindo na tela
+// Numeros de elementos caindo na tela
 coracao_no = 25;
 
 if (typeof(window.pageYOffset) == "number")
