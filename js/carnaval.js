@@ -1,8 +1,6 @@
 // Rodrigo Rocha 20/01/2019
 
 // Caminho da Imagem
-
-// LEMBRE-SE: De mudar o caminho, onde confete.png é salvo
 confete_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/confete.png";
 
 // Numeros de elementos caindo na tela
@@ -71,7 +69,7 @@ ConfeteStart()
 
 mascara_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/mascara.png";
 
-
+// Numeros de elementos caindo na tela
 mascara_no = 10;
 
 if (typeof(window.pageYOffset) == "number")
