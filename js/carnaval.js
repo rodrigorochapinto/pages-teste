@@ -131,4 +131,5 @@ function MascaraStart()
 	}
 	mascara_time = setTimeout("MascaraStart()", 10);
 }
+
 MascaraStart()
