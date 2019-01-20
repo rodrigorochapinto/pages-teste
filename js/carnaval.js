@@ -198,4 +198,5 @@ function Mascara_anonymousStart()
 	}
 	mascara_anonymous_time = setTimeout("Mascara_anonymousStart()", 10);
 }
+
 Mascara_anonymousStart()
