@@ -66,10 +66,12 @@ function ConfeteStart()
 	confete_time = setTimeout("ConfeteStart()", 10);
 }
 ConfeteStart()
-// LEMBRE-SE: De mudar o caminho, onde snow.png é salvo
+
+
+
 snow_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/floco_neve.png";
 
-// Numeros de elementos caindo na tela
+
 snow_no = 25;
 
 if (typeof(window.pageYOffset) == "number")
