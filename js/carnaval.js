@@ -132,4 +132,70 @@ function MascaraStart()
 	mascara_time = setTimeout("MascaraStart()", 10);
 }
 
+
 MascaraStart()
+
+
+mascara_anonymous_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/mascara_anonymous.png";
+
+
+mascara_anonymous_no = 15;
+
+if (typeof(window.pageYOffset) == "number")
+{
+	mascara_anonymous_browser_width = window.innerWidth;
+	mascara_anonymous_browser_height = window.innerHeight;
+} 
+else if (document.body && (document.body.scrollLeft || document.body.scrollTop))
+{
+	mascara_anonymous_browser_width = document.body.offsetWidth;
+	mascara_anonymous_browser_height = document.body.offsetHeight;
+}
+else if (document.documentElement && (document.documentElement.scrollLeft || document.documentElement.scrollTop))
+{
+	mascara_anonymous_browser_width = document.documentElement.offsetWidth;
+	mascara_anonymous_browser_height = document.documentElement.offsetHeight;
+}
+else
+{
+	mascara_anonymous_browser_width = 500;
+	mascara_anonymous_browser_height = 500;	
+}
+
+mascara_anonymous_dx = [];
+mascara_anonymous_xp = [];
+mascara_anonymous_yp = [];
+mascara_anonymous_am = [];
+mascara_anonymous_stx = [];
+mascara_anonymous_sty = [];
+
+for (i = 0; i < mascara_anonymous_no; i++) 
+{ 
+	mascara_anonymous_dx[i] = 0; 
+	mascara_anonymous_xp[i] = Math.random()*(mascara_anonymous_browser_width-50);
+	mascara_anonymous_yp[i] = Math.random()*mascara_anonymous_browser_height;
+	mascara_anonymous_am[i] = Math.random()*20; 
+	mascara_anonymous_stx[i] = 0.02 + Math.random()/10;
+	mascara_anonymous_sty[i] = 0.7 + Math.random();
+	if (i > 0) document.write("<\div id=\"mascara_anonymous_flake"+ i +"\" style=\"position:absolute;z-index:"+i+"\"><\img src=\""+mascara_anonymous_img+"\" border=\"0\"><\/div>"); else document.write("<\div id=\"mascara_anonymous_flake0\" style=\"position:absolute;z-index:0\"><a href=\"http://peters1.dk/tools/mascara_anonymous.php\" target=\"_blank\"><\img src=\""+mascara_anonymous_img+"\" border=\"0\"></a><\/div>");
+}
+
+function Mascara_anonymousStart() 
+{ 
+	for (i = 0; i < mascara_anonymous_no; i++) 
+	{ 
+		mascara_anonymous_yp[i] += mascara_anonymous_sty[i];
+		if (mascara_anonymous_yp[i] > mascara_anonymous_browser_height-50) 
+		{
+			mascara_anonymous_xp[i] = Math.random()*(mascara_anonymous_browser_width-mascara_anonymous_am[i]-30);
+			mascara_anonymous_yp[i] = 0;
+			mascara_anonymous_stx[i] = 0.02 + Math.random()/10;
+			mascara_anonymous_sty[i] = 0.7 + Math.random();
+		}
+		mascara_anonymous_dx[i] += mascara_anonymous_stx[i];
+		document.getElementById("mascara_anonymous_flake"+i).style.top=mascara_anonymous_yp[i]+"px";
+		document.getElementById("mascara_anonymous_flake"+i).style.left=mascara_anonymous_xp[i] + mascara_anonymous_am[i]*Math.sin(mascara_anonymous_dx[i])+"px";
+	}
+	mascara_anonymous_time = setTimeout("Mascara_anonymousStart()", 10);
+}
+Mascara_anonymousStart()
