@@ -5,6 +5,7 @@
 
 document.write("<h1>OLHA O CARNAVAL AÍ GENTE!!!!</h1>");
 
+
 // Caminho da Imagem
 confete_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/confete.png";
 
