@@ -1,9 +1,10 @@
 // Rodrigo Rocha 20/01/2019
 //
-//Exibe a queda de três ícones na tela e toca um samba enrredo ao mesmo tempo.
+//Exibe a queda de tres icones na tela e toca um samba enrredo ao mesmo tempo.
 //
 
-document.write("<h1>OLHA O CARNAVAL AÍ GENTE!!!!</h1>");
+document.write("<h1>OLHA O CARNAVAL GENTE!!!!</h1></br>VAI FICAR PARADO? VAMOS CURTIR!!!!");
+document.write("<img src='https://rodrigorochapinto.github.io/pages-teste/imagens/confete.png' alt='Smiley face' height='42' width='42'> ");
 
 
 // Caminho da Imagem
