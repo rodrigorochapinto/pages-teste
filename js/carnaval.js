@@ -3,8 +3,8 @@
 //Exibe a queda de tres icones na tela e toca um samba enrredo ao mesmo tempo.
 //
 
-document.write("<h1>OLHA O CARNAVAL GENTE!!!!</h1></br><h1>VAI FICAR PARADO? VAMOS CURTIR!!!!</h1></br>");
-document.write("<img src='https://rodrigorochapinto.github.io/pages-teste/imagens/emoji.png' alt='Emoji' height='280' width='280'> ");
+document.write("<h1 style='text-align: center'>OLHA O CARNAVAL GENTE!!!!</h1></br><h1 style='text-align: center'>VAI FICAR PARADO? VAMOS CURTIR!!!!</h1></br>");
+	document.write("<div style='text-align: center'><img src='https://rodrigorochapinto.github.io/pages-teste/imagens/emoji.png' alt='Emoji' height='200' width='200'></div> ");
 
 
 // Caminho da Imagem
