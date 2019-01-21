@@ -5,7 +5,7 @@ var array = {
 	'senha' : items[1]
 }
 
-alert(array.login);
+alert(array.senha);
 
 
 
