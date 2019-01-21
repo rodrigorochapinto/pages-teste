@@ -10,7 +10,6 @@ var strbusca = eval('/'+busca+'/g');
 str2 = str.replace(strbusca, "_");
 alert(str2);
 
-
 var y = url1.split("&");
 
 alert(y[1]);
