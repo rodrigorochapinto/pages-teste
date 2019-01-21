@@ -6,6 +6,8 @@ var items = url.split("&");
 var array = {
 'usuario' : items[0],
 }
+
+//Retira o %20 referente aos espaços e substitui pos underline
 str = array.usuario
 var busca = "%20"; 
 var strbusca = eval('/'+busca+'/g');
