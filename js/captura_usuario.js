@@ -1,7 +1,9 @@
 //Captura todo o conteudo da URL
 var url   = window.location.search.replace("?", "");
 
-var y = url.split('&');
+var y = url.split('?');
+
+var x = y.split('&');
 
 alert(y[0] + y[1]);
 
