@@ -7,6 +7,8 @@ alert(url);
 
 
 
+
+
 //var url   = window.location.search.replace("?", "");
 
 //Recupera o nome do usuario enviado por GET
