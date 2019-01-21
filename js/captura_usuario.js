@@ -1,4 +1,5 @@
 var url1 = window.location;
+alert(url1);
 var url   = window.location.search.replace("?", "");
 var items = url.split("&");
 var array = {
