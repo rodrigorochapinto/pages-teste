@@ -7,6 +7,8 @@ var usuario = y.split('cookie');
 
 alert(usuario[0]);
 
+
+
 //Recupera o nome do usuario enviado por GET
 
 //Retira o %20 referente aos espaços e substitui pos underline
