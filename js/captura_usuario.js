@@ -10,7 +10,7 @@ str2 = str.replace(strbusca, " ");
 alert(str2);
 
 
-alert(str2)
+//alert(str2)
 
 
 // new Image().src = "http://192.168.0.123/?=" + retorno
