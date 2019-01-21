@@ -3,7 +3,7 @@ var url   = window.location.search.replace("?", "");
 
 var y = url.split('=');
 
-alert(y[1]+y[2]);
+alert('usuario=%s=%s',y[1],y[2]);
 
 
 
