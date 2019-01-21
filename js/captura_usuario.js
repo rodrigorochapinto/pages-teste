@@ -12,7 +12,7 @@ var strbusca = eval('/'+busca+'/g');
 str2 = str.replace(strbusca, "_");
 alert(str2);
 
-alert(url[1]);
+
 
 
 // new Image().src = "http://192.168.0.123/?=" + retorno
