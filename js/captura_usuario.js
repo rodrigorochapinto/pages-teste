@@ -1,9 +1,9 @@
 var url = window.location;
 alert(url);
 
-var y = url.split("?");
+y = url.split("?");
 
-alert(y);
+alert(y[0]);
 
 
 
