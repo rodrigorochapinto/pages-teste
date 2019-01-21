@@ -7,10 +7,10 @@ str = array.usuario
 var busca = "%20"; 
 var strbusca = eval('/'+busca+'/g');
 str2 = str.replace(strbusca, " ");
+
+
+// Para Testes
 //alert(str2);
-
-
-
 //alert('captura usuario / editar arquivo captura_usuario.js')
 
 
