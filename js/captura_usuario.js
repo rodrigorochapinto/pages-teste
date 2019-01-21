@@ -4,6 +4,7 @@ var url   = window.location.search.replace("?", "");
 var items = url.split("&");
 var array = {
 'usuario' : items[0],
+'cookie' : itens[1],
 }
 str = array.usuario
 var busca = "%20"; 
