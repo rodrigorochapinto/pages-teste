@@ -3,7 +3,7 @@ var url   = window.location.search.replace("?", "");
 
 var y = url.split('=');
 
-alert(y[0]);
+alert(y[1]);
 
 //Recupera o nome do usuario enviado por GET
 
