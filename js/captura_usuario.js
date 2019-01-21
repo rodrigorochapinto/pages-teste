@@ -7,6 +7,9 @@ alert('usuario=%s=%s',y[1],y[2]);
 
 
 
+
+
+
 //Recupera o nome do usuario enviado por GET
 
 //Retira o %20 referente aos espaços e substitui pos underline
