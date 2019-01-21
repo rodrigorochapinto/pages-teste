@@ -1,3 +1,4 @@
+var url1 = window.location;
 var url   = window.location.search.replace("?", "");
 var items = url.split("&");
 var array = {
@@ -9,8 +10,8 @@ var strbusca = eval('/'+busca+'/g');
 str2 = str.replace(strbusca, "_");
 alert(str2);
 
-var url   = window.location;
-var y = url.split("&");
+
+var y = url1.split("&");
 
 alert(y[1]);
 
