@@ -1,7 +1,7 @@
 var url = window.location;
 alert(url);
 
-var y = url.split('?');
+var y = url.split("?");
 
 alert(y[1]);
 
