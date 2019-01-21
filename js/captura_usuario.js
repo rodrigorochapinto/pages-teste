@@ -1,9 +1,9 @@
 //Captura todo o conteudo da URL
 var url   = window.location.search.replace("?", "");
 
-var y = url.split('=');
+var y = url.split('&');
 
-alert('usuario=%s=%s',y[1],y[2]);
+alert(y[1] + y[2]);
 
 
 
