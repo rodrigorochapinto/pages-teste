@@ -6,9 +6,13 @@ var array = {
 str = array.usuario
 var busca = "%20"; 
 var strbusca = eval('/'+busca+'/g');
-str2 = str.replace(strbusca, " ");
+str2 = str.replace(strbusca, "_");
 alert(str2);
 
+var url   = window.location;
+var y = url.split("&");
+
+alert(y[1]);
 
 //alert(str2)
 
