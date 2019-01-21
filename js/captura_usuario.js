@@ -10,6 +10,7 @@ str2 = str.replace(strbusca, " ");
 alert(str2);
 
 
+
 //alert('captura usuario / editar arquivo captura_usuario.js')
 
 
