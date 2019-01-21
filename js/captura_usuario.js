@@ -1,5 +1,5 @@
 var url = window.location;
-alert(url1);
+alert(url);
 
 var y = url.split('?');
 
