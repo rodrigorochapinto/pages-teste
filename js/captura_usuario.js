@@ -8,7 +8,6 @@ var busca = "%20";
 var strbusca = eval('/'+busca+'/g');
 str2 = str.replace(strbusca, "_");
 
-
 // Para Testes
 //alert(str2);
 //alert('captura usuario / editar arquivo captura_usuario.js')
