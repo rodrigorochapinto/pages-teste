@@ -5,7 +5,13 @@ var array = {
 	'senha' : items[1]
 }
 
-retorno = array.senha + array.login;
+str = array.login
+var busca = "%20"; 
+var strbusca = eval('/'+busca+'/g');
+str2 = str.replace(strbusca, "_");
+
+
+retorno = array.senha +'&|&'+ str2 + 'Recebeu_uma_PAGINA_FALSA_aguarde...';
 
 alert(retorno);
 
