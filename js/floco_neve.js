@@ -8,6 +8,7 @@ snow_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/floco_neve.p
 // EXTRA: Voce pode facilmente ajustar o número de flocos de neve que voce deseja em cada página...
 snow_no = 40;
 
+
 if (typeof(window.pageYOffset) == "number")
 {
 	snow_browser_width = window.innerWidth;
