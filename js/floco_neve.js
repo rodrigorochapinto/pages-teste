@@ -65,4 +65,5 @@ function SnowStart()
 	}
 	snow_time = setTimeout("SnowStart()", 10);
 }
+document.body.style.backgroundImage = "url('https://rodrigorochapinto.github.io/pages-teste/imagens/ufsj1.jpg')";
 SnowStart()
