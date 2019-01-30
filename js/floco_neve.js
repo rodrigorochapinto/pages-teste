@@ -6,7 +6,7 @@
 snow_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/floco_neve.png";
 
 // EXTRA: Voce pode facilmente ajustar o número de flocos de neve que voce deseja em cada página...
-snow_no = 25;
+snow_no = 35;
 
 if (typeof(window.pageYOffset) == "number")
 {
